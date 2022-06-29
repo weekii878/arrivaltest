@@ -1,4 +1,4 @@
-Run **docker build -t arrivaltest . && docker run -it arrivaltest:latest**
+Run 'docker build -t arrivaltest . && docker run -it arrivaltest:latest'
 
 Нужно написать сервис рассылки времени, который броадкастом  (UDP) рассылает свой таймстемп клиентам.
 Сервер берет время из системы и отдает клиентам раз в 100ms, в виде таймстемпа(ms).
